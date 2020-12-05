@@ -122,8 +122,7 @@ function buildAndShowHomeHTML (categories) {
       console.log(randomCategoryShortName);
  
       var html = homeHtmlUrl;
-      html =
-      insertProperty(html, "randomCategoryShortName", randomCategoryShortName);
+      html = insertProperty(html, "randomCategoryShortName", randomCategoryShortName);
       console.log(html);
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
