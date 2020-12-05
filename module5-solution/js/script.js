@@ -130,7 +130,7 @@ function buildAndShowHomeHTML (categories) {
       // of how to do that.
       // ....
       insertHtml("#home-tiles", html);
-      console.log("final test");
+      console.log("final test1");
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
