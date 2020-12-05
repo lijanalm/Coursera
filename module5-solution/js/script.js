@@ -103,6 +103,7 @@ function buildAndShowHomeHTML (categories) {
       var chosenCategoryShortName = chooseRandomCategory(categories).short_name;
       console.log(chosenCategoryShortName);
       var randomCategoryShortName = "" + chosenCategoryShortName;
+      console.log(randomCategoryShortName);
       console.log(randomCategoryShortName); 
       // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
