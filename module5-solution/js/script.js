@@ -99,6 +99,7 @@ function buildAndShowHomeHTML (categories) {
     homeHtmlUrl,
     function (homeHtml) {
       console.log(categories);
+      console.log("test-buildAndShowHomeHTML");
       chooseRandomCategory(categories);
       // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
@@ -137,7 +138,7 @@ function chooseRandomCategory (categories) {
 
   // return category object with that randomArrayIndex
   console.log(categories[randomArrayIndex]);
-  console.log("test");
+  console.log("test-chooseRandomCategory");
   return categories[randomArrayIndex];
 }
 
