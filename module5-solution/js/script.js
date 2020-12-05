@@ -123,13 +123,14 @@ function buildAndShowHomeHTML (categories) {
  
       var html = homeHtmlUrl;
       html =
-      insertProperty(html, "randomCategoryShortName", randomCategoryShortName); 
+      insertProperty(html, "randomCategoryShortName", randomCategoryShortName);
+      console.log(html);
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ....
-      insertHtml("#specials-tile", html);
+      // insertHtml("#specials-tile", html);
       console.log("final test2");
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
