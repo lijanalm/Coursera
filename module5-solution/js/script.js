@@ -120,7 +120,7 @@ function buildAndShowHomeHTML (categories) {
       // var homeHtmlToInsertIntoMainPage = ....
       var randomCategoryShortName = "'" + chosenCategoryShortName + "'";
       console.log(randomCategoryShortName);
-      var homeHtmlToInsertIntoMainPage = homeHtmlUrl;
+      var homeHtmlToInsertIntoMainPage = homeHtml;
       homeHtmlToInsertIntoMainPage = insertProperty(homeHtmlToInsertIntoMainPage, "randomCategoryShortName", randomCategoryShortName);
       console.log(homeHtmlToInsertIntoMainPage);
 
@@ -128,8 +128,8 @@ function buildAndShowHomeHTML (categories) {
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ....
-      insertHtml("#main-content", homeHtml);
-      console.log("final test16");
+      insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
+      console.log("final test17");
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
